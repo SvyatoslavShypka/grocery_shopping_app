@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 // import 'package:flutter_animate/flutter_animate.dart';
 import 'package:go_router/go_router.dart';
 
+import '../screens/home_screen.dart';
 import '../screens/intro_screen.dart';
 
 class AppRouter {
@@ -9,7 +10,7 @@ class AppRouter {
     routes: <RouteBase>[
       GoRoute(
         name: 'intro',
-        path: '/',
+        path: '/intro',
         builder: (BuildContext context, GoRouterState state) {
           return const IntroScreen();
         },
@@ -28,13 +29,13 @@ class AppRouter {
       // return const RegisterScreen();
       // },
       // ),
-      // GoRoute(
-      // name: 'home',
-      // path: '/home',
-      // builder: (BuildContext context, GoRouterState state) {
-      // return const HomeScreen();
-      // },
-      // ),
+      GoRoute(
+        name: 'home',
+        path: '/',
+        builder: (BuildContext context, GoRouterState state) {
+          return const HomeScreen();
+        },
+      ),
       // GoRoute(
       // name: 'scan',
       // path: '/scan',
