@@ -26,7 +26,7 @@ class HomeScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Text(
-                  'Location 1',
+                  'Location 2',
                   style: Theme.of(context)
                       .textTheme
                       .bodyLarge! // ! is used to tell the compiler that the value is not null
@@ -34,7 +34,7 @@ class HomeScreen extends StatelessWidget {
                 ),
                 const SizedBox(width: 8.0),
                 const Icon(Icons.arrow_drop_down),
-              ],
+              ], //check del
             )
           ],
         ),
