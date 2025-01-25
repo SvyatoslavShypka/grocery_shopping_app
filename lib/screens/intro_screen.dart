@@ -63,7 +63,7 @@ class _IntroScreenState extends State<IntroScreen> {
                   child: Text(
                     'Login or Register',
                     style: textTheme.titleMedium!.copyWith(
-                        color: colorScheme.background,
+                        color: colorScheme.surface,
                         fontWeight: FontWeight.bold),
                   ),
                 ),
@@ -72,12 +72,12 @@ class _IntroScreenState extends State<IntroScreen> {
                   onPressed: () {},
                   style: OutlinedButton.styleFrom(
                     minimumSize: const Size.fromHeight(48.0),
-                    side: BorderSide(color: colorScheme.background, width: 2.0),
+                    side: BorderSide(color: colorScheme.surface, width: 2.0),
                   ),
                   child: Text(
                     'Shop as Guest',
                     style: textTheme.titleMedium!.copyWith(
-                        color: colorScheme.background,
+                        color: colorScheme.surface,
                         fontWeight: FontWeight.bold),
                   ),
                 ),
