@@ -72,7 +72,7 @@ class HomeScreen extends StatelessWidget {
                   borderSide: BorderSide.none,
                 ),
                 filled: true,
-                fillColor: colorScheme.onPrimaryContainer.withAlpha(100), //sc16
+                fillColor: colorScheme.onPrimaryContainer.withAlpha(100), //sc17
               ),
             ),
           ),
