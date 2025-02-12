@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/app_bottom_nav_bar.dart';
+import '../widgets/grocery_search_text_form_field.dart';
+
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -49,35 +52,10 @@ class HomeScreen extends StatelessWidget {
           ),
         ],
         bottom: PreferredSize(
-          preferredSize: Size.fromHeight(56.0),
-          child: Padding(
-            padding: const EdgeInsets.only(
-              left: 16.0,
-              right: 16.0,
-              bottom: 8.0,
-            ),
-            child: TextFormField(
-              decoration: InputDecoration(
-                hintText: 'Search',
-                hintStyle: textTheme.bodyMedium!.copyWith(
-                  color: colorScheme.onPrimary.withAlpha(200),
-                ),
-                prefixIcon: Icon(
-                  Icons.search,
-                  color: colorScheme.onPrimary,
-                ),
-                contentPadding: const EdgeInsets.symmetric(horizontal: 16.0),
-                border: OutlineInputBorder(
-                  borderRadius: BorderRadius.circular(32.0),
-                  borderSide: BorderSide.none,
-                ),
-                filled: true,
-                fillColor: colorScheme.onPrimaryContainer.withAlpha(100), //sc20
-              ),
-            ),
-          ),
-        ),
+            preferredSize: Size.fromHeight(56.0),
+            child: GrocerySearchTextFormField()),
       ),
+      bottomNavigationBar: AppBottomNavBar(index: 0),
     );
   }
 }
