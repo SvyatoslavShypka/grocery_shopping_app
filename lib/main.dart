@@ -3,7 +3,7 @@ import 'package:grocery_shopping_app/navigator/app_router.dart';
 
 void main() {
   runApp(const MyApp());
-} //sc22
+} //sc23
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
