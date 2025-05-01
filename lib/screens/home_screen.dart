@@ -46,7 +46,7 @@ class HomeScreen extends StatelessWidget {
             onPressed: () {},
             icon: Badge(
               isLabelVisible: true,
-              label: Text('2'),
+              label: Text('3'),
               child: const Icon(Icons.shopping_cart),
             ),
           ),
