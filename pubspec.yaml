@@ -36,6 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.8
   video_player: ^2.9.2
   go_router: ^14.6.3
+  models:
+    path: api/packages/models
 
 dev_dependencies:
   flutter_test:
