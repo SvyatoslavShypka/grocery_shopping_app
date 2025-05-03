@@ -82,7 +82,9 @@ class Category extends Equatable {
       id: '1',
       name: 'Fruits',
       description: 'Fresh fruits',
-      imageUrl: 'https://source.unsplash.com/random/?fruit',
+      // imageUrl: 'https://source.unsplash.com/random/?fruit',
+      imageUrl:
+          "https://images.unsplash.com/photo-1560155069-ad79768f2666?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDU5NTF8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNTcwMDN8&ixlib=rb-4.0.3&q=80&w=400",
     ),
     Category(
       id: '2',
