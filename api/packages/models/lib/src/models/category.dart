@@ -1,10 +1,4 @@
 import 'package:equatable/equatable.dart';
-// import 'package:grocery_shopping_app/env.dart';
-import '../../../../../../../lib/env.dart';
-
-String apiKey = Env.apiKey;
-String baseUrl = Env.baseUrl;
-String passwordKey = Env.passwordKey;
 
 enum CategorySortBy {
   lowToHighPrice(
